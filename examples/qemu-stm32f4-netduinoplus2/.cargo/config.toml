@@ -1,5 +1,5 @@
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
-runner = "qemu-system-arm -d cpu -M netduino2 -serial stdio -monitor none -nographic -kernel"
+runner = "qemu-system-arm -M netduino2 -serial stdio -monitor none -nographic -kernel"
 
 [build]
 target = "thumbv7em-none-eabi"
