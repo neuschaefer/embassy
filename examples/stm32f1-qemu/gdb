@@ -1,0 +1,2 @@
+#!/bin/sh
+exec rust-gdb --ex 'tar ext :1234' "$@"

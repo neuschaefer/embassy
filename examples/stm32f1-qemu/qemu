@@ -1,0 +1,2 @@
+#!/bin/sh
+exec qemu-system-arm -M netduinoplus2 -serial stdio -nographic -monitor none -kernel "$@"

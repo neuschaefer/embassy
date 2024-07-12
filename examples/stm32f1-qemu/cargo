@@ -1,0 +1,3 @@
+#!/bin/sh
+export RUSTC_BOOTSTRAP=1
+exec cargo "$@" -Z build-std
